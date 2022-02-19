@@ -1,0 +1,380 @@
+body {
+    background: rgb(214,0,0);
+    background: linear-gradient(76deg, rgba(214,0,0,1) 0%, rgba(9,13,121,1) 100%);
+}
+
+
+/* HEADER BOX */
+
+header {
+    height: 30vh;
+    max-height: 1000px;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    mix-blend-mode:screen;
+    padding: 10%;
+    margin: 0 0 5%;
+}
+
+header h1 {
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:900;
+    font-size: 10vw;
+}
+
+header h2 {
+    font-family: 'Helvetica';
+    font-size:5vw;
+}
+
+/* SUMMARY BOX */
+
+.summary {
+    padding: 1% 2%;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+.summary a {
+    white-space: nowrap;
+    line-height: 2.5;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 12px;
+    text-decoration: none;
+    mix-blend-mode: screen;
+}
+
+.summary a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+/* TANSPARENT SECTIONS */
+
+/* heading icons */
+
+.preamble h3:before, .participation h3:before, .benefits h3:before {
+    content: '';
+    background-image: url('./preamble.svg');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 0;
+}
+
+.participation h3:before {
+    background-image: url('participation.svg');
+}
+
+
+.benefits h3:before {
+    background-image: url('benefits.svg');
+}
+
+
+/* headings */
+
+
+.preamble h3, .participation h3, .benefits h3 {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* paragaphs */
+
+.preamble p, .participation p, .benefits p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    padding: 0 3%;
+}
+
+.preamble p:last-child, .benefits p:last-child {
+    padding-bottom: 100px;
+}
+
+/* links */
+
+.preamble a, .participation a, .benefits a {
+    color: white;
+}
+
+.preamble a:hover, .participation a:hover, .benefits a:hover {
+    mix-blend-mode: normal;
+    color: white;
+}
+
+/* SOLID SECTIONS */
+
+.explanation, .requirements {
+    margin-bottom: 100px;
+}
+
+/* headings */
+
+.explanation h3, .requirements h3 {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    mix-blend-mode: screen;
+    padding: 180px 3% 40px;
+    /* background */
+    margin: 0;
+    background-image: url(./what.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:100px, 100px;
+    background-blend-mode: multiply;
+    background-position: 50% 30%;  
+}
+
+.requirements h3 {
+    background-image: url(./requirements.svg);
+}
+
+/* paragraphs */
+
+.explanation p, .requirements p {
+    background-color:  rgba(255, 255, 255, 0.9);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 0;
+    mix-blend-mode: screen;
+    padding: 10px 3%;
+}
+
+.explanation p:last-child {
+    padding-bottom: 100px;
+} 
+
+.requirements p:nth-last-child(2) {
+    padding-bottom: 100px;
+}
+
+/* links */
+
+.requirements a {
+    color: black;
+}
+
+.requirements a:hover {
+    color: black;
+}
+
+/* CREDITS */
+
+.requirements p:last-child {
+    padding: 1% 2%;
+    margin: 100px 0;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+/* links */
+
+.requirements p:last-child {
+    mix-blend-mode: normal;
+}
+
+.requirements p:last-child a {
+    color: white;
+}
+
+body .main .requirements p:last-child a:hover {
+    color: white;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin: 0 10%;
+}
+
+footer a {
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    mix-blend-mode: screen;
+    margin: 10px 10px;
+}
+
+footer a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+/* DESIGNS SELECTION */
+
+
+.design-selection {
+    padding: 1% 2%;
+    margin: 100px 0;
+    line-height: 1.5;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.design-selection h3 {
+    line-height: 1;
+    font-family: 'Helvetica';
+    font-size: 50px;
+}
+
+.design-selection ul {
+    columns: 2;
+    padding: 0;
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.design-name {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    display: block;
+}
+
+.design-selection a {
+    color: white;
+
+}
+
+.designer-name {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ARCHIVES */
+
+.design-archives, .zen-resources {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 10%;
+    margin: 0;
+    mix-blend-mode: screen;
+}
+
+.design-archives h3, .zen-resources h3 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.design-archives a, .zen-resources a {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+/* for Desktop and Tablet */
+
+@media only screen and (min-width: 500px) {
+
+/* HEADER RESIZE */
+
+    header {
+        height: 55vw;
+        width: 55vw;
+        box-sizing:border-box;
+        margin: 5% auto;
+    }
+
+    header h1 {
+        font-size: 7vw;
+    }
+
+    header h2 {
+        font-size:3vw;
+    }
+
+/* SUMMARY RESIZE */
+
+.summary {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+/* TRANSPARENT SECTIONS RESIZE */
+
+.preamble p, .participation p, .benefits p {
+    padding: 0 10%;
+}
+
+/* SOLID SECTIONS RESIZE */
+
+.explanation p, .requirements p {
+    padding: 10px 10%;
+}
+
+/* CREDITS RESIZE */
+
+/* CREDITS */
+
+.requirements p:last-child {
+    margin: 100px auto;
+    width: 50vw;
+}
+
+/* DESIGNS SELECTION */
+
+.design-selection {
+    margin: 100px auto;
+    width: 50vw;
+}
+
+}
+
+/* ULTRA WIDE SCREEN */
+
+@media only screen and (min-width: 2000px) {
+
+    /* HEADER RESIZE */
+
+    header {
+        width: 600px;
+        height: 600px;
+        box-sizing: content-box;
+        padding-top: 50px;
+    }
+
+    header h1 {
+
+        font-size: 140px;
+    }
+
+    header h2 {
+        font-size:65px;
+    }
+
+}
