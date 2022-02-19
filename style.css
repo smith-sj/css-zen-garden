@@ -66,7 +66,7 @@ header h2 {
 
 .preamble h3:before, .participation h3:before, .benefits h3:before {
     content: '';
-    background-image: url('./preamble.svg');
+    background-image: url('./images/preamble.svg');
     background-size: cover;
     width: 100px;
     height: 100px;
@@ -75,12 +75,12 @@ header h2 {
 }
 
 .participation h3:before {
-    background-image: url('participation.svg');
+    background-image: url('./images/participation.svg');
 }
 
 
 .benefits h3:before {
-    background-image: url('benefits.svg');
+    background-image: url('./images/benefits.svg');
 }
 
 
@@ -139,7 +139,7 @@ header h2 {
     padding: 180px 3% 40px;
     /* background */
     margin: 0;
-    background-image: url(./what.svg);
+    background-image: url(./images/what.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size:100px, 100px;
@@ -148,7 +148,7 @@ header h2 {
 }
 
 .requirements h3 {
-    background-image: url(./requirements.svg);
+    background-image: url(./images/requirements.svg);
 }
 
 /* paragraphs */
