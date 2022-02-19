@@ -2,7 +2,7 @@
 
 The CSS Zen Garden challenge can be summed up in 3 simple steps:
 
-  Step 1. Download the HTML and CSS file from http://www.csszengarden.com<br>
+  Step 1. Download the HTML and CSS file this <a href="http://www.csszengarden.com" target="blank">link</a>.<br>
   Step 2. Style the webpage by only editing the CSS file<br>
   Step 3. Don't touch the HTML file
 
