@@ -1,5 +1,5 @@
 # css-zen-garden
-My CSS Zen Garden is hosted <a href="https://smith-sj.github.io/css-zen-garden/" target="blank"> here.</a>
+My CSS Zen Garden is hosted <a href="https://smith-sj.github.io/css-zen-garden/" target="blank"> here</a>.
 
 The CSS Zen Garden challenge can be summed up in 3 simple steps:
 
