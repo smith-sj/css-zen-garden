@@ -3,9 +3,9 @@ My CSS Zen Garden is hosted <a href="https://smith-sj.github.io/css-zen-garden/"
 
 The CSS Zen Garden challenge can be summed up in 3 simple steps:
 
-  Step 1. Download the HTML and CSS file this <a href="http://www.csszengarden.com" target="blank">link</a>.<br>
-  Step 2. Style the webpage by only editing the CSS file<br>
-  Step 3. Don't touch the HTML file
+  Step 1. Download the HTML and CSS documents at this <a href="http://www.csszengarden.com" target="blank">link</a>.<br>
+  Step 2. Style the webpage by only editing the CSS document.<br>
+  Step 3. Don't touch the HTML document.
 
 Simple? Yes. Easy?... <b>Hell, no.</b>
 
