@@ -1,4 +1,5 @@
 # css-zen-garden
+My CSS Zen Garden is hosted here: https://smith-sj.github.io/css-zen-garden/
 
 The CSS Zen Garden challenge can be summed up in 3 simple steps:
 
