@@ -11,7 +11,7 @@ Simple? Yes. Easy?... <b>Hell, no.</b>
 
 ...well, not for a newbie anyway.
 
-In terms of classes, you get what you're given. There is <b>NO</b> touching the HTML document, meaning you're stuck with author David Shea's document layout.
+In terms of classes, you get what you're given. There is <b>NO</b> touching the HTML document, meaning you're stuck with author Dave Shea's document layout.
 As beautifully and expertly crafted as the document is, if an element isn't classed, you need to use pseudo selectors to get at them.
 
 This alone made the challenge worth it for me. As a new programmer, I had no idea of the power of CSS pseudo selectors. Had I been permitted to insert
